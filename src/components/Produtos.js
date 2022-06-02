@@ -58,7 +58,7 @@ class Produtos extends React.Component {
   }
 
   loadProduct = (id) => {
-    fetch("http://localhost:8000/produtos/:id" , { method: 'GET'})
+    fetch("http://localhost:8000/produtos" , { method: 'GET'})
     .then(resposta => resposta.json())
     .then(produto => {
       this.setState({ 
@@ -71,7 +71,7 @@ class Produtos extends React.Component {
   }
 
    deleteProduct = (id) => {
-    fetch("http://localhost:8000/produtos/:id" , { method: 'DELETE'})
+    fetch("http://localhost:8000/produtos/" + id, { method: 'DELETE'})
     .then(resposta => {
     if(resposta.ok){
         this.searchProduct()
@@ -90,13 +90,13 @@ class Produtos extends React.Component {
       </thead>
       <tbody>
       {
-        this.state.produtos.map((nome) =>
+        this.state.produtos.map((produto) =>
           <tr>
-            <td> { nome.nome } </td>
-            <td> { nome.preco } </td>
+            <td> { produto.nome } </td>
+            <td> { produto.preco } </td>
             <td> 
-            <Button variant="warning"onClick={() => this.loadProduct(nome.id)}> Editar </Button> 
-            <Button variant="danger" onClick={() => this.showHide()}> Excluir </Button>
+            <Button variant="warning"onClick={() => this.loadProduct()}> Editar </Button> 
+            <Button variant="danger" onClick={() => this.deleteProduct()}> Excluir </Button>
             </td>
           </tr>
         )
@@ -173,7 +173,7 @@ openModal = () => {
         <>
           <Modal show={this.state.modelOpen} onHide={this.closeModal}>
             <Modal.Header closeButton>
-              <Modal.Title>Modal heading</Modal.Title>
+              <Modal.Title>Cadastre seu produto</Modal.Title>
             </Modal.Header>
             <Modal.Body>
               <Form>

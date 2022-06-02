@@ -18,7 +18,7 @@ function Home() {
         <div>
         </div>
         <div className="flex flex-col md:flex-row justify-between items-center text-gray-900">
-          <p className="font-bold text-xl"> R$ 50,00 </p>
+          <p className="font-bold text-xl"> R$ 80,00 </p>
         <button className="px-6 py-2 transition ease-in duration-200 uppercase rounded-full hover:bg-gray-800 hover:text-white border-2 border-gray-900 focus:outline-none">
           Comprar
         </button>
@@ -45,7 +45,7 @@ function Home() {
         <div>
         </div>
         <div className="flex flex-col md:flex-row justify-between items-center text-gray-900">
-          <p className="font-bold text-xl"> R$ 50,00 </p>
+          <p className="font-bold text-xl"> R$ 120,00 </p>
         <button className="px-6 py-2 transition ease-in duration-200 uppercase rounded-full hover:bg-gray-800 hover:text-white border-2 border-gray-900 focus:outline-none">
           Comprar
         </button>
@@ -72,7 +72,7 @@ function Home() {
         <div>
         </div>
         <div className="flex flex-col md:flex-row justify-between items-center text-gray-900">
-          <p className="font-bold text-xl"> R$ 50,00 </p>
+          <p className="font-bold text-xl"> R$ 170,00 </p>
         <button className="px-6 py-2 transition ease-in duration-200 uppercase rounded-full hover:bg-gray-800 hover:text-white border-2 border-gray-900 focus:outline-none">
           Comprar
         </button>

@@ -35,11 +35,18 @@ Você terá 7 dias para concluir o desafio e nos disponibilizar o link do github
 
 ## Sobre o Projeto 💭
 ### Publica
-Página inicial não precisa de autenticação e clicar no botão de compra contabiliza quantidade no estoque.
+Aba de Página inicial e Sobre que não precisa de registro para acessa-la, porém produtos e estoque é necessário registro
 ![Tela Publica]
 ### Privado
-Cadastro de produto no qual reflete lista de controle de estoque e página inicial da loja
+Ao se cadastrar e realizar o login, o acesso as abas produtos e estoque são liberadas, assim permitindo cadastro, edição e exclusão de produtos com (id, nome e valor) 
 ![Tela Privada]
+
+(Em Desenvolvimento)
+ [ ] Contador de produtos
+ [ ] Sistema de Carrinho de compras
+ [ ] Autenticação de Login
+ [ ] Deploy de Backend e Frontend
+
 ## Executando frontend
 ```bash
 npm start
@@ -66,10 +73,10 @@ npm start abrirá em http://localhost/3000
 - Styled-Components
 - Tailwind CSS
 
-## Fontes
-
-## Links
-
+## Fontes e Links
+https://www.npmjs.com/ 
+https://www.conventionalcommits.org/pt-br/v1.0.0-beta.4/ 
+https://expressjs.com/pt-br/4x/api.html
 
 ## Autor
 Jordan Cruz

@@ -45,10 +45,10 @@ Ao se cadastrar e realizar o login, o acesso as abas produtos e estoque são lib
 ![Tela Privada](https://user-images.githubusercontent.com/97923666/171769949-29d4d133-6e78-4e18-a5b5-b89de9334c61.gif)
 
 (Em Desenvolvimento)
- [ ] Contador de produtos
- [ ] Sistema de Carrinho de compras
- [ ] Autenticação de Login
- [ ] Deploy de Backend e Frontend
+- [⌛] Contador de produtos
+- [⌛] Sistema de Carrinho de compras
+- [⌛] Autenticação de Login
+- [⌛] Deploy de Backend e Frontend
 
 ## Executando frontend
 ```bash

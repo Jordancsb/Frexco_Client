@@ -77,9 +77,10 @@ npm start abrirá em http://localhost/3000
 - Tailwind CSS
 
 ## Fontes e Links
-https://www.npmjs.com/ 
-https://www.conventionalcommits.org/pt-br/v1.0.0-beta.4/ 
-https://expressjs.com/pt-br/4x/api.html
+- https://www.npmjs.com/ (NPM)
+- https://www.conventionalcommits.org/pt-br/v1.0.0-beta.4/ (Conventional Commits)
+- https://expressjs.com/pt-br/4x/api.html (Documentação Express)
+- https://pt-br.reactjs.org/docs/getting-started.html (Documentação React)
 
 ## Autor
 Jordan Cruz

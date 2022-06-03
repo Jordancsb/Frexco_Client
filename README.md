@@ -36,10 +36,10 @@ Você terá 7 dias para concluir o desafio e nos disponibilizar o link do github
 ## Sobre o Projeto 💭
 ### Publica
 Aba de Página inicial e Sobre que não precisa de registro para acessa-la, porém produtos e estoque é necessário registro
-![Tela Publica]
+![Tela Publica](..%5C..%5CVlog%5CPublica.gif)
 ### Privado
 Ao se cadastrar e realizar o login, o acesso as abas produtos e estoque são liberadas, assim permitindo cadastro, edição e exclusão de produtos com (id, nome e valor) 
-![Tela Privada]
+![Tela Privada](..%5C..%5CVlog%5CPrivado.gif)
 
 (Em Desenvolvimento)
  [ ] Contador de produtos

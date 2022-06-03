@@ -36,16 +36,20 @@ Você terá 7 dias para concluir o desafio e nos disponibilizar o link do github
 ## Sobre o Projeto 💭
 ### Publica
 Aba de Página inicial e Sobre que não precisa de registro para acessa-la, porém produtos e estoque é necessário registro
-![Tela Publica](..%5C..%5CVlog%5CPublica.gif)
+
+![Tela Publica](https://user-images.githubusercontent.com/97923666/171769470-51c82d14-fedc-4db8-a269-7ed1582e8edb.gif)
+
 ### Privado
 Ao se cadastrar e realizar o login, o acesso as abas produtos e estoque são liberadas, assim permitindo cadastro, edição e exclusão de produtos com (id, nome e valor) 
-![Tela Privada](..%5C..%5CVlog%5CPrivado.gif)
+
+![Tela Privada](https://user-images.githubusercontent.com/97923666/171769493-551e2037-22e7-4c9d-8c24-8c0834445e56.gif)
+
 
 (Em Desenvolvimento)
- [ ] Contador de produtos
- [ ] Sistema de Carrinho de compras
- [ ] Autenticação de Login
- [ ] Deploy de Backend e Frontend
+ - [⚠️] Contador de produtos
+ - [⚠️] Sistema de Carrinho de compras
+ - [⚠️] Autenticação de Login
+ - [⚠️] Deploy de Backend e Frontend
 
 ## Executando frontend
 ```bash
